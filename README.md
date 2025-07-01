@@ -25,5 +25,4 @@ A Streamlit-based web application that uses multimodal LLM (Meta LLaMA 3.2 Visio
 
 ---
 
-## 📂 Project Structure
 
