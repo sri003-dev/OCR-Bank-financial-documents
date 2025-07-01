@@ -1,29 +1,29 @@
-Financial Document Analyzer
-A Streamlit-based web application that leverages LLMs to extract and visualize key financial metrics from documents like Bank Statements, Salary Slips, Cheques, Profit & Loss Statements, and Transaction Histories using multimodal AI capabilities.
+# 📄 Financial Document Analyzer
 
-🚀 Features
-📄 Document Upload: Upload multiple image or PDF documents.
+A Streamlit-based web application that uses multimodal LLM (Meta LLaMA 3.2 Vision via Together API) to extract and visualize key financial metrics from various documents such as **Bank Statements**, **Cheques**, **Salary Slips**, **Profit & Loss Statements**, and **Transaction Histories**.
 
-🧠 LLM-Powered Extraction: Uses Meta LLaMA 3.2 Vision model (via Together API) to extract numeric parameters.
+---
 
-📊 Data Visualization: View comparative Bar Charts and Pie Charts of extracted financial values.
+## 🚀 Features
 
-🔍 Ask Questions: Query the document using natural language and get visual context-aware answers.
+- 📁 Upload PDFs or images of financial documents
+- 🤖 Extract key numeric parameters using Meta-LLaMA Vision model
+- 📊 View comparative **Bar Charts** and **Pie Charts**
+- 💬 Ask questions about the document and get AI-generated answers
+- 📥 Download the extracted parameters as a CSV file
 
-💾 Export: Download extracted data as a CSV file.
+---
 
-🧠 Multimodal AI: Supports image + text prompt completion.
+## 🧱 Tech Stack
 
-🧱 Tech Stack
-Frontend: Streamlit
+- **Frontend**: Streamlit
+- **Backend AI Model**: Meta-LLaMA 3.2 Vision via Together API
+- **Visualization**: Plotly
+- **PDF/Image Processing**: PyMuPDF, Pillow
+- **Environment Config**: python-dotenv
+- **Language**: Python 3.x
 
-Visualization: Plotly
+---
 
-OCR & PDF Processing: PyMuPDF (fitz), Pillow
-
-Backend Model: Meta-LLaMA Vision via Together.ai
-
-Cloud Image Retrieval (Optional): Cloudinary
-
-Environment Management: python-dotenv
+## 📂 Project Structure
 
