@@ -23,6 +23,5 @@ A Streamlit-based web application that uses multimodal LLM (Meta LLaMA 3.2 Visio
 - **Environment Config**: python-dotenv
 - **Language**: Python 3.x
 
----
 
 
